@@ -21,6 +21,11 @@
       "misMatchThreshold ": 0.0000000001
     },
     {
+      "label": "Accordion (Carbon)",
+      "url": "http://react.carbondesignsystem.com/iframe.html?selectedKind=Accordion&selectedStory=Default",
+      "misMatchThreshold ": 0.0000000001
+    },
+    {
       "label": "BackstopJS",
       "url": "https://github.com/garris/BackstopJS#installation",
       "misMatchThreshold ": 0.0000000001
