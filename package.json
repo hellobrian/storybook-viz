@@ -7,8 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "parcel src/index.html",
     "build": "parcel build src/index.html",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 --ci",
+    "build-storybook": "build-storybook",
+    "backstop:ref": "backstop reference",
+    "backstop:test": "backstop test",
+    "backstop:approve": "backstop approve",
+    "test:ref": "start-server-and-test storybook http-get://localhost:6006 backstop:ref",
+    "test:viz": "start-server-and-test storybook http-get://localhost:6006 backstop:test",
+    "test:approve": "start-server-and-test storybook http-get://localhost:6006 backstop:approve"
   },
   "keywords": [],
   "author": "",
@@ -16,12 +22,14 @@
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "@babel/preset-react": "^7.0.0",
-    "parcel-bundler": "^1.11.0",
-    "@storybook/react": "^4.1.11",
     "@storybook/addon-actions": "^4.1.11",
     "@storybook/addon-links": "^4.1.11",
     "@storybook/addons": "^4.1.11",
-    "babel-loader": "^8.0.5"
+    "@storybook/react": "^4.1.11",
+    "babel-loader": "^8.0.5",
+    "backstopjs": "^3.8.8",
+    "parcel-bundler": "^1.11.0",
+    "start-server-and-test": "^1.7.11"
   },
   "dependencies": {
     "react": "^16.7.0",
