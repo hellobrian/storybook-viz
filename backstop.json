@@ -19,6 +19,11 @@
       "label": "Button",
       "url": "http://localhost:6006/iframe.html?selectedKind=Button&selectedStory=default",
       "misMatchThreshold ": 0.0000000001
+    },
+    {
+      "label": "BackstopJS",
+      "url": "https://github.com/garris/BackstopJS#installation",
+      "misMatchThreshold ": 0.0000000001
     }
   ],
   "paths": {
