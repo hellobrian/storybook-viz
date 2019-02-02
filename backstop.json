@@ -16,11 +16,6 @@
   "onReadyScript": "puppet/onReady.js",
   "scenarios": [
     {
-      "label": "Button",
-      "url": "http://localhost:6006/iframe.html?selectedKind=Button&selectedStory=default",
-      "misMatchThreshold ": 0.0000000001
-    },
-    {
       "label": "Accordion (Carbon)",
       "url": "http://react.carbondesignsystem.com/iframe.html?selectedKind=Accordion&selectedStory=Default",
       "misMatchThreshold ": 0.0000000001
@@ -44,5 +39,8 @@
   "asyncCaptureLimit": 5,
   "asyncCompareLimit": 50,
   "debug": false,
-  "debugWindow": false
+  "debugWindow": false,
+  "engineOptions": {
+    "args": ["--no-sandbox"]
+  }
 }

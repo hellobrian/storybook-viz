@@ -9,9 +9,9 @@
     "build": "parcel build src/index.html",
     "storybook": "start-storybook -p 6006 --ci",
     "build-storybook": "build-storybook",
-    "backstop:ref": "backstop reference",
-    "backstop:test": "backstop test",
-    "backstop:approve": "backstop approve",
+    "backstop:ref": "backstop reference --docker",
+    "backstop:test": "backstop test --docker",
+    "backstop:approve": "backstop approve --docker",
     "test:ref": "start-server-and-test storybook http-get://localhost:6006 backstop:ref",
     "test:viz": "start-server-and-test storybook http-get://localhost:6006 backstop:test",
     "test:approve": "start-server-and-test storybook http-get://localhost:6006 backstop:approve"
