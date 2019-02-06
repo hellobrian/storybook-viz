@@ -18,12 +18,22 @@
     {
       "label": "Accordion (Carbon)",
       "url": "http://react.carbondesignsystem.com/iframe.html?selectedKind=Accordion&selectedStory=Default",
-      "misMatchThreshold ": 0.0000000001
+      "misMatchThreshold ": 0.01
     },
     {
       "label": "BackstopJS",
       "url": "https://github.com/garris/BackstopJS#installation",
-      "misMatchThreshold ": 0.0000000001
+      "misMatchThreshold ": 0.01
+    },
+    {
+      "label": "Button - default",
+      "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Button&selectedStory=default",
+      "misMatchThreshold ": 0.01
+    },
+    {
+      "label": "Button - emoji",
+      "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Button&selectedStory=emoji",
+      "misMatchThreshold ": 0.01
     }
   ],
   "paths": {
