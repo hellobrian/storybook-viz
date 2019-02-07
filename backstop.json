@@ -53,7 +53,7 @@
     "testReportFileName": "storybook-viz-xunit",
     "testSuiteName": "backstopJS"
   },
-  "report": ["CI"],
+  "report": ["CI", "browser"],
   "engine": "puppeteer",
   "engineFlags": [],
   "asyncCaptureLimit": 5,
