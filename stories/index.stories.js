@@ -22,7 +22,8 @@ const charmander =
 
 storiesOf("Pokemon", module).add("bulbasaur", () => (
   <img
-    src="https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png"
+    src={charmander}
+    // src="https://cdn.bulbagarden.net/upload/thumb/2/21/001Bulbasaur.png/250px-001Bulbasaur.png"
     alt="pokemon"
   />
 ));

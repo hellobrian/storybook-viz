@@ -37,7 +37,7 @@
     },
     {
       "label": "Pokemon - bulbasaur",
-      "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Button&selectedStory=emoji",
+      "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Pokemon&selectedStory=bulbasaur",
       "misMatchThreshold ": 0.01
     }
   ],
