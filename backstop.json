@@ -34,6 +34,11 @@
       "label": "Button - emoji",
       "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Button&selectedStory=emoji",
       "misMatchThreshold ": 0.01
+    },
+    {
+      "label": "Pokemon - bulbasaur",
+      "url": "https://storybook-viz.netlify.com/iframe.html?selectedKind=Button&selectedStory=emoji",
+      "misMatchThreshold ": 0.01
     }
   ],
   "paths": {
@@ -43,7 +48,12 @@
     "html_report": "backstop_data/html_report",
     "ci_report": "backstop_data/ci_report"
   },
-  "report": ["browser"],
+  "ci": {
+    "format": "junit",
+    "testReportFileName": "storybook-viz-xunit",
+    "testSuiteName": "backstopJS"
+  },
+  "report": ["CI"],
   "engine": "puppeteer",
   "engineFlags": [],
   "asyncCaptureLimit": 5,
